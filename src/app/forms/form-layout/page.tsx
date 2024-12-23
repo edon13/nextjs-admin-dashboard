@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const FormLayout = () => {
   return (
     <DefaultLayout>
-      <Breadcrumb pageName="Form Layout" />
+      <Breadcrumb pageName="Regjistro" />
 
       <div className="grid grid-cols-1 gap-9 sm:grid-cols-2">
         <div className="flex flex-col gap-9">
@@ -51,12 +51,12 @@ const FormLayout = () => {
                   required
                 />
 
-                <InputGroup
+                {/* <InputGroup
                   label="Subject"
                   type="text"
                   placeholder="Enter your subject"
                   customClasses="mb-4.5"
-                />
+                /> */}
 
                 <SelectGroupOne />
 
@@ -81,7 +81,7 @@ const FormLayout = () => {
 
         <div className="flex flex-col gap-9">
           {/* <!-- Sign In Form --> */}
-          <div className="rounded-[10px] border border-stroke bg-white shadow-1 dark:border-dark-3 dark:bg-gray-dark dark:shadow-card">
+          {/* <div className="rounded-[10px] border border-stroke bg-white shadow-1 dark:border-dark-3 dark:bg-gray-dark dark:shadow-card">
             <div className="border-b border-stroke px-6.5 py-4 dark:border-dark-3">
               <h3 className="font-semibold text-dark dark:text-white">
                 Sign In Form
@@ -146,7 +146,7 @@ const FormLayout = () => {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
 
           {/* <!-- Sign Up Form --> */}
           <div className="rounded-[10px] border border-stroke bg-white shadow-1 dark:border-dark-3 dark:bg-gray-dark dark:shadow-card">
